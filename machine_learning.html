@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Machine Learning Projects of Pradip Bhatta">
+    <meta name="author" content="Pradip Bhatta">
+    <title>Machine Learning Projects - Pradip Bhatta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pradip Bhatta</h1>
+        <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="hire-me.html">Why Hire Me?</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projects">
+            <h2>Projects</h2>
+            <article id="machine-learning">
+                <h3>Machine Learning Projects</h3>
+                <p>Explore my work in machine learning:</p>
+                <ul>
+                    <li><strong>Customer Segmentation Model:</strong> Built a clustering model to segment customers based on purchasing behavior.</li>
+                    <li><strong>Predictive Maintenance:</strong> Developed a model to predict equipment failures using historical data and machine learning algorithms.</li>
+                    <li><strong>Sentiment Analysis:</strong> Implemented a sentiment analysis model to evaluate customer feedback and improve services.</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pradip Bhatta. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+</html>

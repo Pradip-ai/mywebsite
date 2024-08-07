@@ -1,0 +1,21 @@
+# Pradip Bhatta - Data Analyst Portfolio
+
+## Overview
+This is the portfolio website for Pradip Bhatta, a Data Analyst with extensive experience in various data management and analysis tools.
+
+## Files
+- `index.html`: Home page
+- `about.html`: About me page
+- `contact.html`: Contact page
+- `projects.html`: Projects page
+- `why-hire-me.html`: Reasons to hire me page
+- `resume.html`: Resume page
+- `styles.css`: Stylesheet for the website
+- `script.js`: JavaScript for dynamic content loading
+
+## Setup
+1. Ensure you have all the HTML, CSS, and JavaScript files in the same directory.
+2. Open `index.html` in your browser to view the website.
+
+## License
+This project is licensed under the MIT License.

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Excel Projects of Pradip Bhatta">
+    <meta name="author" content="Pradip Bhatta">
+    <title>Excel Projects - Pradip Bhatta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pradip Bhatta</h1>
+        <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="hire-me.html">Why Hire Me?</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projects">
+            <h2>Projects</h2>
+            <article id="excel">
+                <h3>Excel Projects</h3>
+                <p>Here are some notable projects where I utilized Excel to manage and analyze data:</p>
+                <ul>
+                    <li><strong>Automated Invoicing System:</strong> Developed a VBA-based system to automate invoicing, track payments, and streamline processes.</li>
+                    <li><strong>Sales Analysis Dashboard:</strong> Created an interactive dashboard to analyze sales performance and generate actionable insights.</li>
+                    <li><strong>Data Cleansing and Validation:</strong> Implemented complex formulas and data validation techniques to ensure data accuracy.</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pradip Bhatta. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+</html>

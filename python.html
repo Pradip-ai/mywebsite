@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Python Projects of Pradip Bhatta">
+    <meta name="author" content="Pradip Bhatta">
+    <title>Python Projects - Pradip Bhatta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pradip Bhatta</h1>
+        <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="hire-me.html">Why Hire Me?</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projects">
+            <h2>Projects</h2>
+            <article id="python">
+                <h3>Python Projects</h3>
+                <p>Here are some projects I've completed using Python:</p>
+                <ul>
+                    <li><strong>Data Scraping Tool:</strong> Developed a script to scrape data from websites for market research.</li>
+                    <li><strong>Automated Report Generator:</strong> Created a tool to generate automated reports from various data sources.</li>
+                    <li><strong>Predictive Analytics Model:</strong> Built a model to forecast sales based on historical data and trends.</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pradip Bhatta. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+</html>

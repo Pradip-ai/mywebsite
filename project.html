@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects of Pradip Bhatta">
+    <meta name="keywords" content="Projects, Data Analysis, Portfolio">
+    <meta name="author" content="Pradip Bhatta">
+    <title>Projects - Pradip Bhatta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pradip Bhatta</h1>
+        <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="why-hire-me.html">Why Hire Me?</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/pradip-bhatta-a327781a8/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="grid-container">
+                <div class="grid-item excel" onclick="showMessage('Excel Project')">
+                    <img src="images/excel.png" alt="Excel" class="project-image">
+                    <p>Excel VBA Automation</p>
+                </div>
+                <div class="grid-item power-bi" onclick="showMessage('Power BI Project')">
+                    <img src="images/powerbi.png" alt="Power BI" class="project-image">
+                    <p>Power BI Dashboard</p>
+                </div>
+                <div class="grid-item sql" onclick="showMessage('SQL Project')">
+                    <img src="images/sql.png" alt="SQL" class="project-image">
+                    <p>SQL Database Management</p>
+                </div>
+                <div class="grid-item python" onclick="showMessage('Python Project')">
+                    <img src="images/python.png" alt="Python" class="project-image">
+                    <p>Python Data Analysis</p>
+                </div>
+                <div class="grid-item r-studio" onclick="showMessage('R Studio Project')">
+                    <img src="images/rstudio.png" alt="R Studio" class="project-image">
+                    <p>R Studio Statistical Analysis</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pradip Bhatta. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
